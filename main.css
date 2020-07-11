@@ -77,3 +77,15 @@ hr {
 .content > span > a:hover {
   color:#fff !important;
   }
+
+#home > div > div > div > div {
+  color:#fff;
+  display:inline-block;
+  }
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  color:#fff !important;
+  margin-right:0.5em;
+  }
+
