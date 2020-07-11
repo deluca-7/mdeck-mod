@@ -1,5 +1,79 @@
-/* filler for git for now */
+:root {
+  --border-radius: 3px;
+  }
 
-* {
+body {
+  background:#222224 !important;
+  }
+
+a {
+  color:rgb(64,196,255);
+  transition:0.3s color;
+  text-decoration: none;
+  }
+
+a:hover {
+  color:rgb(163, 226, 255);
+  }
+
+div {
   box-sizing:border-box;
+  }
+
+table tr {
+  display:grid;
+  grid-template-columns:160px 1fr 1fr 1fr;
+  }
+
+table table tr {
+  display:block;
+  }
+
+td:first-child {
+  padding-right:0.5em;
+  }
+
+div.content {
+  color: #ccc !important;
+  line-height:1.25em;
+  }
+
+#home > div {
+  margin:0 0 0.7em 0;
+  border:1px solid rgba(255,255,255,0.03) !important;
+  border-radius:var(--border-radius);
+  background-color:rgba(0,0,0,0.2);
+  padding:1em;
+  }
+
+#home > div > div > p > a > img {
+  margin-top:0.7em;
+  border-radius:var(--border-radius);
+  }
+
+div.content > table > tr > td {
+  color:#fff !important;
+  line-height:1.45em;
+  }
+
+div.content > table > tr > td a {
+  text-decoration: none;
+  }
+
+hr {
+  display:block;
+  border:none;
+  height:1em;
+  }
+
+.content > span {
+  color:#999 !important;
+  }
+
+.content > span > a {
+  color:#999 !important;
+  }
+
+.content > span > a:hover {
+  color:#fff !important;
   }
